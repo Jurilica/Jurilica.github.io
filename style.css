@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin:0;
+    position: relative;
+    background-color: rgb(200,240,230);
+}
+
+
+.container{
+    font-size: 1.5em;
+    max-width: 500px;
+}
+
+#textInput {
+    font-weight: 500;
+    height: 50px;
+    padding: 0 0.2em;
+    resize: none;
+    overflow: hidden;
+    line-height: 50px;
+    font-family: 'Lato', sans-serif;
+    border: 1px solid #c7d5dd;
+    background: #fafafa;
+    margin-top: 0.5em;
+    color: #999999;
+    font-size: 20px;
+    vertical-align: middle;
+    
+    width: 100%;
+}
+
+.correct{
+    background-color: yellowgreen;
+}
+
+.incorrect{
+   background-color: red;
+}
+
+.timer,
+.wpm{
+    text-align: center;
+    padding: 1em;
+    position: absolute;
+    font-size: 1.5em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+}
+.timer{
+    top:1em;
+}
+
+.wpm{
+    top:5em;
+}
+
+button {
+    background-color: white; 
+    border: 2px solid #008CBA;;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+button:hover {
+    background-color: #008CBA;;
+    }
